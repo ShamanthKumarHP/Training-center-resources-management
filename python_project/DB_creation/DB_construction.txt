@@ -1,0 +1,22 @@
+# Database name = computerparadise
+    #1table = staffs
+          #column 1 = SID (key)
+          #column 2 = Names
+          #column 3 = Course
+          #column 4 = MobNo
+          
+    #2table = clist        
+          #column 1 = CID (key)
+          #column 2 = Cname
+          #column 3 = Duration
+          #column 4 = Fee
+          #column 5 = PR  #for pre-requisites
+          
+    #3table = enq
+          #column 1 = Name
+          #column 2 = Pnum
+          #column 3 = Cs
+          #column 4 = Sess
+          #column 5 = Mail
+          #column 6 = OtherDetails
+          #column 7 = NewCourse
