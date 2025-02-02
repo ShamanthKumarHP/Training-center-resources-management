@@ -16,10 +16,10 @@ const Sidebar: React.FC = () => {
           </li>
           <li>
             <Link
-              to="/staffs"
+              to="/faculties"
               className="block p-2 text-gray-800 hover:bg-gray-300 rounded"
             >
-              Staff Management
+              Faculty Management
             </Link>
           </li>
           <li>
@@ -36,6 +36,14 @@ const Sidebar: React.FC = () => {
               className="block p-2 text-gray-800 hover:bg-gray-300 rounded"
             >
               Course Management
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/enquiries"
+              className="block p-2 text-gray-800 hover:bg-gray-300 rounded"
+            >
+              Enquiry Management
             </Link>
           </li>
         </ul>
